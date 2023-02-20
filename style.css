@@ -1,0 +1,100 @@
+body{
+    height: 100vh;
+    background-color: #333;
+    display: grid;
+    place-items: center;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.group{
+    width: 95%;
+    height: 50%;
+    border: 1px solid #666;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.card{
+    display: block;
+    overflow: hidden;
+    aspect-ratio: 5/7;
+    width: 30vmin;
+    border: 1px solid #666;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    transition: scale 1s;
+    line-height: 150%;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.card h2,
+.card p{
+    position: absolute;
+    left: 0.45rem;
+    color: #fff;
+}
+
+.card h2{
+    bottom: 10%;
+}
+
+.card p{
+    bottom: 0%;
+}
+
+.card:hover{
+    scale: 1.05;
+}
+
+.one{
+    left: 2%;
+}
+
+.two{
+    left: 10%;
+}
+
+.three{
+    left: 18%;
+}
+
+.four{
+    left: 26%;
+}
+
+.five{
+    left: 33%;
+}
+
+.six{
+    right: 36%;
+}
+
+.seven{
+    right: 26%;
+}
+
+.eight{
+    right: 18%;
+}
+
+.nine{
+    right: 10%;
+}
+
+.ten{
+    right: 2%;
+}
